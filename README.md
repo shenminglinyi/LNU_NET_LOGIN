@@ -21,5 +21,6 @@ notes: |
   - 查询请登录网站，自己更改JSESSIONID，能用多久不详
 ---
 
-![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/主页.png) ![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/配置.png)
-![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/登录.png) ![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/查询.png)
+| ![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/主页.png) | ![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/配置.png) |
+|:---:|:---:|
+| ![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/登录.png) | ![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/查询.png) |
