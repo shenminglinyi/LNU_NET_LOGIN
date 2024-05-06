@@ -49,8 +49,8 @@ data={
 "foo":"",
 "bar":"",
 "checkcode": val,
-"account": "20211491514",
-"password": "69111b77ae1a655a7380678848743e34",
+"account": "",
+"password": "",
 "code":""
 }
 
