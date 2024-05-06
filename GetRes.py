@@ -6,9 +6,16 @@
 # @Software: PyCharm
 import requests
 import config
+import hashlib
 from bs4 import BeautifulSoup
 
 import configparser
+
+def md5_lower(text):
+    """计算字符串的MD5摘要，并以32位小写形式返回"""
+    md5 = hashlib.md5()
+    md5.update(text.encode('utf-8'))
+    return md5.hexdigest()
 
 # 创建一个配置文件解析器对象
 config = configparser.ConfigParser()
@@ -20,6 +27,9 @@ config.read('config.ini')
 ip = config.get('Network', 'IP')
 v = config.get('Network', 'V')
 jsessionid = config.get('Cookies', 'JSESSIONID')
+username = config.get('User', 'username')
+password = config.get('User', 'password')
+md5_password = md5_lower(password)
 
 url="http://gatesrv.lnu.edu.cn/login/verify"
 url1="http://gatesrv.lnu.edu.cn/"
@@ -49,8 +59,8 @@ data={
 "foo":"",
 "bar":"",
 "checkcode": val,
-"account": "",
-"password": "",
+"account": username,
+"password": md5_password,
 "code":""
 }
 
