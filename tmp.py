@@ -37,7 +37,7 @@ data = {
     'account': '',  # account字段值
     'password': '',  # password字段值
     'code': '',  # code字段值
-    'mp_56ac2c299c42140f6d81dec2a4ea9a3c_mixpanel':{}
+    'token':{}
 }
 
 # 创建一个配置文件解析器对象
@@ -49,8 +49,7 @@ config.read('config.ini')
 username = config.get('User', 'username')
 password = config.get('User', 'password')
 md5_password = md5_lower(password)
-token={"distinct_id": "4d45490c-9e96-4269-870a-b84d03d26c3b","$device_id": "18f4dee40cb5d2-0c98d78ea54554-26001d51-1fa400-18f4dee40cb5d3","$initial_referrer": "$direct","$initial_referring_domain": "$direct","__mps": {},"__mpso": {},"__mpus": {},"__mpa": {},"__mpu": {},"__mpr": [],"__mpap": [],"$user_id": "4d45490c-9e96-4269-870a-b84d03d26c3b"}
-
+token={}
 res1 = session.get(url2).text
 # print(res1)
 html_tree = etree.HTML(res1)
