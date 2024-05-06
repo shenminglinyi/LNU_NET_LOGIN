@@ -20,7 +20,7 @@ notes: |
   - 可以将程序添加到桌面快捷方式以便更方便地使用。
   - 查询请登录网站，自己更改JSESSIONID，能用多久不详
 ---
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/主页.png)
+![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/配置.png)
+![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/登录.png)
+![image](https://github.com/shenminglinyi/LNU_NET_LOGIN/blob/main/img/查询.png)
